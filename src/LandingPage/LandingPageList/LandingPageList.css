@@ -1,0 +1,165 @@
+.Mid1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  border: 1px solid rgba(0, 0, 0, 0.182);
+  border-radius: 8px;
+  padding-bottom: 0%;
+}
+.Mid1 > p {
+  display: flex;
+  align-items: center;
+}
+.Image88 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+.Mid2 {
+  display: flex;
+  align-items: center;
+  height: 10%;
+  column-gap: 10px;
+  width: 100%;
+  padding-left: 5%;
+  margin-top: 2%;
+  padding-bottom: 2%;
+  cursor: pointer;
+}
+.Mid3 {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  height: 5%;
+  width: 100%;
+  padding-left: 5%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+.Mid2 > p {
+  font-size: 13px;
+}
+.Dotss-div {
+  display: flex;
+  column-gap: 5px;
+  margin-left: auto;
+  margin-right: 8%;
+}
+.Image89 {
+  height: 70%;
+}
+.Svgmid2:hover {
+  z-index: 10;
+  cursor: pointer;
+}
+.Midname {
+  cursor: pointer;
+}
+
+.More {
+  cursor: pointer;
+}
+.Mid5{
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 90%;
+  line-height: 25px;
+  font-size: 14px;
+}
+.Mid5-input {
+  padding: 12px;
+  padding-left: 35px;
+  width: 94%;
+  margin-top: 8%;
+  border: 1px solid rgba(0, 0, 0, 0.28);
+  border-left: 0;
+  border-right: 0;
+}
+.Mid5-input-div {
+  width: 100%;
+  display: flex;
+}
+.Face {
+  position: absolute;
+  margin-top: 48px;
+  margin-left: 3px;
+  cursor: pointer;
+}
+.Post {
+  position: absolute;
+  right: 30%;
+  margin-top: 50px;
+  color: rgba(30, 143, 255, 0.515);
+  cursor: pointer;
+}
+@media only screen and (max-width: 1281px) {
+  .Face {
+    margin-top: 42px;
+  }
+  .Post {
+    right: 30%;
+    margin-top: 42px;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .Face {
+    margin-top: 42px;
+  }
+  .Post {
+    right: 25%;
+    margin-top: 47px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .Face {
+    margin-top: 45px;
+  }
+  .Post {
+    right: 5%;
+    margin-top: 47px;
+  }
+}
+
+@media only screen and (max-width: 821px) {
+  .Face {
+    margin-top: 40px;
+  }
+  .Post {
+    right: 6%;
+    margin-top: 43px;
+  }
+}
+
+@media only screen and (max-width: 541px) {
+  .Face {
+    margin-top: 47px;
+  }
+  .Post {
+    right: 8%;
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .Face {
+    margin-top: 40px;
+  }
+  .Post {
+    right: 8%;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .Face {
+    margin-top: 36px;
+  }
+  .Post {
+    right: 8%;
+    margin-top: 38px;
+  }
+}

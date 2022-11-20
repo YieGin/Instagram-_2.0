@@ -1,0 +1,294 @@
+.Message-Main {
+  width: 100%;
+  height: 100vh;
+  margin-left: 1.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Message_2nd {
+  display: flex;
+  color: black;
+  width: 70%;
+  height: 95%;
+  border: 1px solid rgba(0, 0, 0, 0.214);
+}
+.Message_3rd {
+  height: 100%;
+  width: 40%;
+  border: 1px solid rgba(0, 0, 0, 0.214);
+}
+.Message_4rd {
+  height: 8%;
+  width: 99.8%;
+  border: 1px solid rgba(0, 0, 0, 0.214);
+  border-top: 0;
+  border-left: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.Message_4rd > p {
+  cursor: pointer;
+}
+.Dropdown-Message{
+  fill: rgb(0, 0, 0);
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.svgMessages {
+  position: relative;
+  left: 22%;
+  cursor: pointer;
+}
+.Message_5 {
+  display: flex;
+  flex-direction: column;
+  height: 92%;
+  padding-left: 5%;
+  padding-top: 4%;
+  row-gap: 20px;
+  overflow: scroll;
+}
+
+.Image18{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.Image27{
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+.Message_6 {
+  display: flex;
+  column-gap: 10px;
+  color: rgba(5, 5, 5, 0.606);
+  font-size: 13px;
+  cursor: pointer;
+}
+.Message_6div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.Right-Message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+  row-gap: 10px;
+}
+.you_message {
+  color: rgba(0, 0, 0, 0.696);
+  font-size: 20px;
+}
+.Private {
+  color: rgba(0, 0, 0, 0.539);
+}
+.Send {
+  background-color: rgb(71, 153, 253);
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.Right2 {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 100%;
+}
+.Righttop{
+  background-color: white;
+  width: 90%;
+  height: 8%;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  column-gap: 10px;
+  z-index: 55;
+  border: 1px rgba(0, 0, 0, 0.207) solid;
+  border-left: 0;
+  border-top: 0;
+}
+.Sonari {
+  margin-right: auto;
+}
+.Svg-gap {
+  display: flex;
+  column-gap: 20px;
+  cursor: pointer;
+}
+.Helpdiv {
+  height: 85%;
+}
+.Message-send {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inputt{
+  width: 28%;
+  height: 4%;
+  padding-left: 60px;
+  position: absolute;
+  border-radius: 50px;
+  border: 1px rgba(0, 0, 0, 0.207) solid;
+}
+.Message-send-gif {
+  display: flex;
+  width: 85%;
+  column-gap: 10px;
+}
+
+
+@media only screen and (max-width: 1025px) {
+  .Message_3rd{
+    width: 50%;
+  }
+  .Message_5 {
+    height: 90%;
+  }
+  .Private {
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 10px;
+  }
+  .inputt{
+    width: 20%;
+    height: 5%;
+  }
+}
+
+@media only screen and (max-width: 915px) {
+  .Message_3rd{
+    width: 50%;
+  }
+  .Message_5 {
+    height: 90%;
+  }
+  .Private {
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 10px;
+  }
+  .inputt{
+    width: 20%;
+    height: 5%;
+  }
+  .Message_4rd {
+    height: 4%;
+  }
+  .svgMessages {
+    width: 20px;
+    height: 20px;
+    left: 10px;
+  }
+  .Message_2nd {
+    width: 80%;
+  }
+  .Right-Message {
+    height: 50%;
+  }
+  .Righttop {
+    height: 4.1%;
+  }
+  .Sonari {
+    font-size: 14px;
+  }
+}
+
+
+
+@media only screen and (max-width: 825px) {
+  .Message_3rd {
+    width: 60%;
+  }
+  .Righttop {
+    width: 90%;
+  }
+  .Right2 {
+    width: 70%;
+  }
+  .Righttopsvg {
+    width: 18px;
+    height: 20px;
+  }
+  .Sonari {
+    font-size: 12px;
+  }
+  .Message_2nd {
+    width: 95%;
+  }
+  .inputt {
+    width: 28%;
+    height: 4%;
+  }
+}
+
+
+@media only screen and (max-width: 545px) {
+  .Message_3rd {
+    width: 60%;
+  }
+  .Righttop {
+    width: 90%;
+  }
+  .Right2 {
+    width: 70%;
+    height: 104%;
+  }
+  .Righttopsvg {
+    width: 18px;
+    height: 20px;
+  }
+  .Sonari {
+    font-size: 12px;
+  }
+  .Message_2nd {
+    width: 95%;
+  }
+  .inputt {
+    width: 20%;
+    height: 5%;
+    padding-left: 10px,
+  }
+  .Message_4rd {
+    height: 6%;
+  }
+  .Righttop {
+    height: 5.8%;
+  }
+  .Message_3rd {
+    width: 100%;
+  }
+  .Message_5 {
+    width: 98%;
+  }
+  .Image18 {
+    width: 35px;
+    height: 35px;
+  }
+  .Message_6 {
+    font-size: 12px;
+  }
+  .Svg-gap {
+    column-gap: 5px;
+  }
+  .Svg-exploreee {
+    width: 20px;
+    height: 20px;
+  }
+  .Svg-exploreeee {
+    width: 20px;
+    height: 20px;
+  }
+}

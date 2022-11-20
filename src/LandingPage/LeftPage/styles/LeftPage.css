@@ -1,0 +1,363 @@
+.LeftPage_main {
+  height: 100vh;
+  width: 300px;
+  padding-left: 2%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  border-right: 1px rgb(197, 197, 197) solid;
+  z-index: 10;
+  position: sticky;
+  top: 0;
+}
+.Instagram-logo{
+  margin-top: 40px;
+  cursor: pointer;
+}
+.IconLeft {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  height: 25px;
+  width: 100%;
+  color: black;
+  cursor: pointer; 
+}
+.IconLeftt {
+  display: flex;
+  align-items: center;
+  column-gap: 0px;
+  height: 25px;
+  color: black;
+  cursor: pointer; 
+  column-gap: 50px;
+}
+.IconLeft > p{
+  color: rgba(42, 42, 42, 0.812);
+}
+.Explore {
+  color: rgba(42, 42, 42, 0.812);
+}
+.IconLeftAuto {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  height: 25px;
+  width: 100%;
+  color: black;
+  cursor: pointer;
+  margin-bottom: auto;
+}
+.Image1 {
+  width: 25px;
+  height: 25px;
+  border-radius: 500px;
+}
+.Image1:hover {
+  width: 26px;
+  height: 26px;
+}
+.Svg-left {
+  width: 25px;
+  height: 25px;
+}
+.Svg-left-bigger {
+  width: 30px;
+  height: 30px;
+}
+.Svg-left:hover {
+  height: 26px;
+  width: 26px;
+  background-color: rgba(255, 255, 255, 0.456);
+}
+.LeftPage-bottommain {
+  display: flex;
+  height: 8%;
+  column-gap: 20px;
+  cursor: pointer;
+}
+.LeftPage-bottom {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+
+}
+.Lines3 {
+  background-color: rgb(0, 0, 0);
+  width: 20px;
+  height: 2px;
+}
+.test {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(0, 0, 0);
+  filter: drop-shadow(0 0 25px rgba(0, 0, 0, 0.9));
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+  margin-left: 40px;
+  border-left: 1px solid rgba(155, 155, 155, 0.192);
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  left: -100px;
+  transition: all 0.5s cubic-bezier(.29,.04,.52,1);
+  z-index: 50;
+}
+.test1 {
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+  margin-left: 40px;
+  border-left: 1px solid rgba(155, 155, 155, 0.192);
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  border-radius: 30px;
+  left: -100px;
+  transition: all 0.5s cubic-bezier(.29,.04,.52,1);
+  z-index: 50;
+}
+.Search{
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.input{
+  margin-left: 20px;
+  padding: 12px;
+  width: 80%;
+  border: 0;
+  background-color: rgba(155, 155, 155, 0.192);
+  border-radius: 8px;
+}
+.Border-searchh {
+  background-color: rgba(155, 155, 155, 0.516);
+  width: 95%;
+  height: 1px;
+}
+.Border-search {
+  background-color: rgba(155, 155, 155, 0.516);
+  width: 90%;
+  height: 1px;
+}
+.Recent {
+  padding-left: 20px;
+}
+.Search-Last{
+  height: 35%;
+  width: 100%;
+  padding-left: 0%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(135, 135, 135);
+  row-gap: 20px;
+}
+.Search-Lasttt{
+  height: 100%;
+  width: 100%;
+  padding-left: 0%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(135, 135, 135);
+  row-gap: 20px;
+}
+.Notifications{
+  display: flex;
+  column-gap: 20px;
+  width: 90%;
+  padding-left: 7%;
+  height: 50px;
+  cursor: pointer;
+}
+.testt {
+  width: 40px;
+}
+.Image8{
+  width: 45px;
+  height: 40px;
+  position: absolute;
+  bottom: 87%;
+  left: 5%;
+  border-radius: 50px;
+}
+.Image2{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border-radius: 50px;
+}
+.Notifications-top {
+  display: flex;
+  flex-direction: column;
+  color: rgba(0, 0, 0, 0.502);
+  font-size: 14px;
+}
+.Arimodo {
+  color: rgb(0, 0, 0);
+}
+.Notifications-right {
+  margin-left: auto;
+}
+.Following {
+  padding: 6px 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+  color: black;
+}
+.More-settings {
+  display: flex;
+  width: 85%;
+  height: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border: 1px solid rgba(0, 0, 0, 0.121);
+  position: relative;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.More-div {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 100%;
+  row-gap: 5px;
+}
+.textmore {
+  margin-left: auto;
+}
+.LeftPagee_main {
+  display: none;
+}
+
+@media only screen and (max-width: 1025px) {
+  .test1 {
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    position: absolute;
+    width: 200%;
+    margin-left: 40px;
+    border-left: 1px solid rgba(155, 155, 155, 0.192);
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    border-radius: 30px;
+    left: -100px;
+    transition: all 0.5s cubic-bezier(.29,.04,.52,1);
+    z-index: 50;
+    overflow-y: scroll;
+  }
+  .Recent {
+    padding-bottom: 20px;
+  }
+  .Image8{
+    width: 45px;
+    height: 40px;
+    position: absolute;
+    bottom: 80%;
+    left: 5%;
+    border-radius: 50px;
+  }
+  .Instagram-logo{
+    margin-top: 10px;
+    cursor: pointer;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .Search-Last {
+    height: 20%;
+  }
+  .Image8{
+    width: 45px;
+    height: 40px;
+    position: absolute;
+    bottom: 0%;
+    top: 5.6%;
+    left: 5.5%;
+    border-radius: 50px;
+  }
+  
+}
+@media only screen and (max-width: 840px) {
+  .LeftPage_main {
+    width: 250px;
+  }
+  .Image8{
+    width: 45px;
+    height: 40px;
+    position: absolute;
+    bottom: 0%;
+    top: 6.5%;
+    left: 5.5%;
+    border-radius: 50px;
+  }
+}
+
+
+@media only screen and (max-width: 541px) {
+  .LeftPage_main {
+   display: none;
+  }
+  .LeftPagee_main {
+    height: 8%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-left: 10%;
+    display: flex;
+    column-gap: 80px;
+    border-right: 1px rgb(197, 197, 197) solid;
+    z-index: 20;
+    position: fixed;
+    top: 92%;
+    background-color: rgb(250, 250, 250);
+    box-shadow: rgb(64, 0, 255);
+    filter: drop-shadow(0 0 25px rgba(0, 0, 0, 0.9));
+  }
+  .IconLeftAuto {
+    margin-bottom: 0;
+  }
+}
+
+
+@media only screen and (max-width: 420px) {
+  .LeftPagee_main {
+    height: 8%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-left: 10%;
+    display: flex;
+    column-gap: 50px;
+    border-right: 1px rgb(197, 197, 197) solid;
+    z-index: 20;
+    position: fixed;
+    top: 88%;
+    background-color: rgb(250, 250, 250);
+    box-shadow: rgb(64, 0, 255);
+    filter: drop-shadow(0 0 25px rgba(0, 0, 0, 0.9));
+  }
+}
+
+@media only screen and (max-width: 395px) {
+  .LeftPagee_main {
+    height: 8%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-left: 10%;
+    display: flex;
+    column-gap: 40px;
+    border-right: 1px rgb(197, 197, 197) solid;
+    z-index: 20;
+    position: fixed;
+    top: 92%;
+    background-color: rgb(250, 250, 250);
+    box-shadow: rgb(64, 0, 255);
+    filter: drop-shadow(0 0 25px rgba(0, 0, 0, 0.9));
+  }
+}
