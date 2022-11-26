@@ -128,7 +128,7 @@ const Messages = () => {
                 <img className="Image18" src={Image31} alt="" />
                 <div className="Message_6div">
                   <p>imad temiene</p>
-                  <p>Send you a message . 1w</p>
+                  <p>Send you a message. 1w</p>
                 </div>
               </div>
               <div
