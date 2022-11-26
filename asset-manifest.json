@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Instagram/static/css/main.591247b1.css",
+    "main.js": "/Instagram/static/js/main.5df03881.js",
+    "static/media/43.jpg": "/Instagram/static/media/43.21f39251bda75e772b62.jpg",
+    "static/media/38.jpg": "/Instagram/static/media/38.cce72302838392d6421f.jpg",
+    "static/media/41.jpg": "/Instagram/static/media/41.119e56efec83f4a9248c.jpg",
+    "static/media/40.jpg": "/Instagram/static/media/40.9ca8347fb8e62b6ea946.jpg",
+    "static/media/44.jpg": "/Instagram/static/media/44.9482dddbe024d8a3af27.jpg",
+    "static/media/13.jpg": "/Instagram/static/media/13.20cd49cc8f61941ade2b.jpg",
+    "static/media/11.jpg": "/Instagram/static/media/11.f9c582562beabdffc961.jpg",
+    "static/media/17.jpg": "/Instagram/static/media/17.405be3c25aa9eb700e73.jpg",
+    "static/media/14.jpg": "/Instagram/static/media/14.c7433ef1fe42ae74bb0d.jpg",
+    "static/media/3.jpg": "/Instagram/static/media/3.3dc7325a676215bfdef2.jpg",
+    "static/media/6.jpg": "/Instagram/static/media/6.0c5a57f84a879dbcee1f.jpg",
+    "static/media/8.jpg": "/Instagram/static/media/8.aaabf04bf8050c897cd4.jpg",
+    "static/media/7.jpg": "/Instagram/static/media/7.464a2d3e7fa80a5d6cc1.jpg",
+    "static/media/15.jpg": "/Instagram/static/media/15.8c612cdfb121fca7c935.jpg",
+    "static/media/2.jpg": "/Instagram/static/media/2.994fe9bb44046af4abeb.jpg",
+    "static/media/12.jpg": "/Instagram/static/media/12.e8074bb1c8c4346d7520.jpg",
+    "static/media/10.jpg": "/Instagram/static/media/10.fbd6d68d1d90d7c7208e.jpg",
+    "static/media/18.jpg": "/Instagram/static/media/18.72f957cd599e97714e8f.jpg",
+    "static/media/5.jpg": "/Instagram/static/media/5.377ce967d7fc23524f35.jpg",
+    "static/media/9.jpg": "/Instagram/static/media/9.777df11de556fe2cbac0.jpg",
+    "static/media/4.jpg": "/Instagram/static/media/4.c1d0c7f5f10fc2c86838.jpg",
+    "static/media/16.jpg": "/Instagram/static/media/16.9edcd23e81c9bb268462.jpg",
+    "index.html": "/Instagram/index.html",
+    "main.591247b1.css.map": "/Instagram/static/css/main.591247b1.css.map",
+    "main.5df03881.js.map": "/Instagram/static/js/main.5df03881.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.591247b1.css",
+    "static/js/main.5df03881.js"
+  ]
+}
