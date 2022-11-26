@@ -5,7 +5,6 @@ import LeftPage from "./LandingPage/LeftPage/LeftPage";
 import Explore from "./LandingPage/explore/explore";
 import Messages from "./LandingPage/Messages/Messages";
 import LandingPageList from "./LandingPage/LandingPageList/LandingPageList";
-import test from "./test";
 const App = () => {
   return (
     <HashRouter>
