@@ -207,11 +207,11 @@ const LandingPage = () => {
             </svg>
           </motion.div>
         )}
-        <LandingPageList List={List1} />
+        <LandingPageList List={List5} />
         <LandingPageList List={List2} />
         <LandingPageList List={List3} />
         <LandingPageList List={List4} />
-        <LandingPageList List={List5} />
+        <LandingPageList List={List1} />
       </div>
       <div className="Mainpagerightdiv">
         <MainPageright Listt={List_1} />
