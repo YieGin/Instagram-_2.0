@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import LandingPage from "./LandingPage/MainPage/LandingPage";
 import LeftPage from "./LandingPage/LeftPage/LeftPage";
 import Explore from "./LandingPage/explore/explore";
@@ -8,7 +8,7 @@ import LandingPageList from "./LandingPage/LandingPageList/LandingPageList";
 import test from "./test";
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<LandingPage />}></Route>
         <Route path="/" element={<LeftPage />}></Route>
@@ -17,7 +17,7 @@ const App = () => {
         <Route path="/Messages" element={<Messages />}></Route>
         <Route path="/test" element={<test />}></Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
